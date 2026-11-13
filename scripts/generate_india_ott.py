@@ -86,7 +86,7 @@ def safe_link(value):
 
 def clean_title(title):
     # Cinebuds occasionally repeats a thumbnail's initial, e.g. "H Heggana Muddu".
-    return re.sub(r"^([a-z0-9])\\s+(?=\\1)", "", title.strip(), flags=re.I)
+    return re.sub(r"^([a-z0-9])\s+(?=\1)", "", title.strip(), flags=re.I)
 
 
 def identity(value):
