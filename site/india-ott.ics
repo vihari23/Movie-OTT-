@@ -1,0 +1,705 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Personal India OTT Releases//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:India OTT Releases
+X-WR-TIMEZONE:America/Phoenix
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:PT24H
+BEGIN:VTIMEZONE
+TZID:America/Phoenix
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0700
+TZNAME:MST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ott-f7dfed0372c1f0a36603d8cb@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261015T080000
+DTEND;TZID=America/Phoenix:20261015T090000
+SUMMARY:OTT: I It's A Medical Miracle — Manorama Max (Malayalam)
+DESCRIPTION:India OTT release date: 2026-10-15\nPlatform: Manorama Max\nLan
+ guages: Malayalam\nSource: https://cinebuds.com/malayalam-movies-ott-relea
+ se-dates/\nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming
+  launch time. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/malayalam-movies-ott-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-8fb60fe6c579de452dda1867@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261015T080000
+DTEND;TZID=America/Phoenix:20261015T090000
+SUMMARY:OTT: I Its A Medical Miracle — Manorama Max (Malayalam)
+DESCRIPTION:India OTT release date: 2026-10-15\nPlatform: Manorama Max\nLan
+ guages: Malayalam\nSource: https://cinebuds.com/malayalam-movies-ott-relea
+ se-dates/\nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming
+  launch time. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/malayalam-movies-ott-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-d9e5e01d47709be3f663e18e@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261015T080000
+DTEND;TZID=America/Phoenix:20261015T090000
+SUMMARY:OTT: E Enna Vilai — Netflix (Tamil)
+DESCRIPTION:India OTT release date: 2026-10-15\nPlatform: Netflix\nLanguage
+ s: Tamil\nSource: https://cinebuds.com/tamil-movies-digital-release-dates/
+ \nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch t
+ ime. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/tamil-movies-digital-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-3d2f599e8877db5c250fd298@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261016T080000
+DTEND;TZID=America/Phoenix:20261016T090000
+SUMMARY:OTT: O Oru Anweshanathinte Thudakkam — Sun NXT (Malayalam)
+DESCRIPTION:India OTT release date: 2026-10-16\nPlatform: Sun NXT\nLanguage
+ s: Malayalam\nSource: https://cinebuds.com/malayalam-movies-ott-release-da
+ tes/\nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming laun
+ ch time. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/malayalam-movies-ott-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-65802bf9c2d0b02f0f3be39d@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261016T080000
+DTEND;TZID=America/Phoenix:20261016T090000
+SUMMARY:OTT: A Aasha — ZEE5 (Malayalam)
+DESCRIPTION:India OTT release date: 2026-10-16\nPlatform: ZEE5\nLanguages: 
+ Malayalam\nSource: https://cinebuds.com/malayalam-movies-ott-release-dates
+ /\nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch 
+ time. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/malayalam-movies-ott-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-d542748a5f83808518537a72@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261022T080000
+DTEND;TZID=America/Phoenix:20261022T090000
+SUMMARY:OTT: Naa Wife Missing — Aha (Telugu)
+DESCRIPTION:India OTT release date: 2026-10-22\nPlatform: Aha\nLanguages: T
+ elugu\nSource: https://cinebuds.com/movies/naa-wife-missing/\nTime 8:00–
+ 9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Dates and
+  availability can change\; check the platform.
+URL:https://cinebuds.com/movies/naa-wife-missing/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-561f817f86dc6f700703f989@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261022T080000
+DTEND;TZID=America/Phoenix:20261022T090000
+SUMMARY:OTT: The Paradise — Netflix (Telugu)
+DESCRIPTION:India OTT release date: 2026-10-22\nPlatform: Netflix\nLanguage
+ s: Telugu Also in Malayalam\, Tamil\, Kannada\, Hindi\nSource: https://cin
+ ebuds.com/movies/the-paradise/\nTime 8:00–9:00 AM Phoenix is a display s
+ lot\, NOT a streaming launch time. Dates and availability can change\; che
+ ck the platform.
+URL:https://cinebuds.com/movies/the-paradise/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-49f015412937f391ab41c0ba@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261023T080000
+DTEND;TZID=America/Phoenix:20261023T090000
+SUMMARY:OTT: Dhoomakethu — Netflix (Malayalam)
+DESCRIPTION:India OTT release date: 2026-10-23\nPlatform: Netflix\nLanguage
+ s: Malayalam\nSource: https://cinebuds.com/dhoomakethu-ott-release-date/\n
+ Time 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch tim
+ e. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/dhoomakethu-ott-release-date/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-a5aa5b389719d47f5bed1991@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261023T080000
+DTEND;TZID=America/Phoenix:20261023T090000
+SUMMARY:OTT: Dorothy — Netflix (Tamil)
+DESCRIPTION:India OTT release date: 2026-10-23\nPlatform: Netflix\nLanguage
+ s: Tamil Also in Malayalam\, Telugu\, Kannada\, Hindi\nSource: https://cin
+ ebuds.com/movies/dorothy/\nTime 8:00–9:00 AM Phoenix is a display slot\,
+  NOT a streaming launch time. Dates and availability can change\; check th
+ e platform.
+URL:https://cinebuds.com/movies/dorothy/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-622334a2454fceb04c1ab8da@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261023T080000
+DTEND;TZID=America/Phoenix:20261023T090000
+SUMMARY:OTT: Ayyana Mane S2 (Series) — ZEE5 (Kannada)
+DESCRIPTION:India OTT release date: 2026-10-23\nPlatform: ZEE5\nLanguages: 
+ Kannada\nSource: https://cinebuds.com/movies/ayyana-mane-s2-series/\nTime 
+ 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Da
+ tes and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/ayyana-mane-s2-series/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-7f2a8f9a8e420fd0d7d6eaf1@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261029T080000
+DTEND;TZID=America/Phoenix:20261029T090000
+SUMMARY:OTT: Thella Kaagitham — ETV Win (Telugu)
+DESCRIPTION:India OTT release date: 2026-10-29\nPlatform: ETV Win\nLanguage
+ s: Telugu\nSource: https://cinebuds.com/movies/thella-kaagitham/\nTime 8:0
+ 0–9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Dates
+  and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/thella-kaagitham/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-68b1c28a2a96ab8ba250433f@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261029T080000
+DTEND;TZID=America/Phoenix:20261029T090000
+SUMMARY:OTT: Baththa — Netflix (Tamil)
+DESCRIPTION:India OTT release date: 2026-10-29\nPlatform: Netflix\nLanguage
+ s: Tamil Also in Malayalam\, Telugu\, Kannada\, Hindi\nSource: https://cin
+ ebuds.com/movies/baththa/\nTime 8:00–9:00 AM Phoenix is a display slot\,
+  NOT a streaming launch time. Dates and availability can change\; check th
+ e platform.
+URL:https://cinebuds.com/movies/baththa/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-2e243be07c93ea2972ba9643@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: Love Always (Series) — JioHotstar (Tamil)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: JioHotstar\nLangu
+ ages: Tamil\nSource: https://cinebuds.com/tamil-movies-digital-release-dat
+ es/\nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launc
+ h time. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/tamil-movies-digital-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-1b0413da3cb06900ec2accaa@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: J Jennifer — Manorama Max (Malayalam)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: Manorama Max\nLan
+ guages: Malayalam\nSource: https://cinebuds.com/malayalam-movies-ott-relea
+ se-dates/\nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming
+  launch time. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/malayalam-movies-ott-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-386f8541991045ef34c5f6db@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: Akka — Netflix (Hindi)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: Netflix\nLanguage
+ s: Hindi Also in Tamil\, Telugu\nSource: https://cinebuds.com/movies/akka/
+ \nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch t
+ ime. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/akka/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-f0c8c791929b8b3f91c7f32d@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: Avaraachan & Sons — Netflix (Malayalam)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: Netflix\nLanguage
+ s: Malayalam Also in Tamil\, Telugu\, Kannada\, Hindi\nSource: https://cin
+ ebuds.com/movies/avaraachan-sons/\nTime 8:00–9:00 AM Phoenix is a displa
+ y slot\, NOT a streaming launch time. Dates and availability can change\; 
+ check the platform.
+URL:https://cinebuds.com/movies/avaraachan-sons/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-2ab4b16cb44de95f38889a73@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: Don't Trouble The Trouble — Netflix (Telugu)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: Netflix\nLanguage
+ s: Telugu Also in Malayalam\, Tamil\, Kannada\, Hindi\nSource: https://cin
+ ebuds.com/movies/dont-trouble-the-trouble/\nTime 8:00–9:00 AM Phoenix is
+  a display slot\, NOT a streaming launch time. Dates and availability can 
+ change\; check the platform.
+URL:https://cinebuds.com/movies/dont-trouble-the-trouble/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-a0181a817c483f32a6e0f814@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: Sigma — Netflix (Tamil)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: Netflix\nLanguage
+ s: Tamil Also in Telugu\nSource: https://cinebuds.com/movies/sigma/\nTime 
+ 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Da
+ tes and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/sigma/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-eb7ea96ed025996f6974f78e@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: Sub-Inspector Yugandhar — Netflix (Telugu)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: Netflix\nLanguage
+ s: Telugu Also in Malayalam\, Tamil\, Kannada\, Hindi\nSource: https://cin
+ ebuds.com/movies/sub-inspector-yugandhar/\nTime 8:00–9:00 AM Phoenix is 
+ a display slot\, NOT a streaming launch time. Dates and availability can c
+ hange\; check the platform.
+URL:https://cinebuds.com/movies/sub-inspector-yugandhar/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-045e8379f4f5dc81480b45d7@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: Comrade Kalyan — Prime Video (Telugu)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: Prime Video\nLang
+ uages: Telugu\nSource: https://cinebuds.com/movies/comrade-kalyan/\nTime 8
+ :00–9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Dat
+ es and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/comrade-kalyan/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-7978ca4f8ba3f5ba5afa82c3@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: Mirzapur — Prime Video (Hindi)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: Prime Video\nLang
+ uages: Hindi\nSource: https://cinebuds.com/movies/mirzapur-the-movie/\nTim
+ e 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch time. 
+ Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/mirzapur-the-movie/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-075df74117b387b2c3fdffbc@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: Dark Heaven — Prime Video Aha (Tamil)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: Prime Video Aha\n
+ Languages: Tamil\nSource: https://cinebuds.com/movies/the-dark-heaven/\nTi
+ me 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch time.
+  Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/the-dark-heaven/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-d6182d76bf20342ad8d0bd97@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261030T080000
+DTEND;TZID=America/Phoenix:20261030T090000
+SUMMARY:OTT: Immortal — SonyLIV (Tamil)
+DESCRIPTION:India OTT release date: 2026-10-30\nPlatform: SonyLIV\nLanguage
+ s: Tamil Also in Malayalam\, Telugu\, Kannada\, Hindi\nSource: https://cin
+ ebuds.com/movies/immortal/\nTime 8:00–9:00 AM Phoenix is a display slot\
+ , NOT a streaming launch time. Dates and availability can change\; check t
+ he platform.
+URL:https://cinebuds.com/movies/immortal/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-f939260d9999d79c05db7080@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261105T080000
+DTEND;TZID=America/Phoenix:20261105T090000
+SUMMARY:OTT: Dilwali diwali — Netflix (Hindi)
+DESCRIPTION:India OTT release date: 2026-11-05\nPlatform: Netflix\nLanguage
+ s: Hindi\nSource: https://cinebuds.com/movies/dilwali-diwali/\nTime 8:00
+ –9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Dates 
+ and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/dilwali-diwali/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-1a13413dfe07aafd45662b0e@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261106T080000
+DTEND;TZID=America/Phoenix:20261106T090000
+SUMMARY:OTT: 7 7 Star Boys — Aha (Tamil)
+DESCRIPTION:India OTT release date: 2026-11-06\nPlatform: Aha\nLanguages: T
+ amil\nSource: https://cinebuds.com/tamil-movies-digital-release-dates/\nTi
+ me 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch time.
+  Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/tamil-movies-digital-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-11b4753323763f448a612f48@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261106T080000
+DTEND;TZID=America/Phoenix:20261106T090000
+SUMMARY:OTT: I'm Game — JioHotstar (Malayalam)
+DESCRIPTION:India OTT release date: 2026-11-06\nPlatform: JioHotstar\nLangu
+ ages: Malayalam Also in Tamil\, Telugu\, Kannada\, Hindi\nSource: https://
+ cinebuds.com/movies/im-game/\nTime 8:00–9:00 AM Phoenix is a display slo
+ t\, NOT a streaming launch time. Dates and availability can change\; check
+  the platform.
+URL:https://cinebuds.com/movies/im-game/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-bf7b9c03fc8f9831e32d8d45@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261106T080000
+DTEND;TZID=America/Phoenix:20261106T090000
+SUMMARY:OTT: A All Pass — Prime Video (Tamil)
+DESCRIPTION:India OTT release date: 2026-11-06\nPlatform: Prime Video\nLang
+ uages: Tamil\nSource: https://cinebuds.com/tamil-movies-digital-release-da
+ tes/\nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming laun
+ ch time. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/tamil-movies-digital-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-9dead3858a092be681bab5ba@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261106T080000
+DTEND;TZID=America/Phoenix:20261106T090000
+SUMMARY:OTT: The Vvaan — Prime Video (Hindi)
+DESCRIPTION:India OTT release date: 2026-11-06\nPlatform: Prime Video\nLang
+ uages: Hindi\nSource: https://cinebuds.com/movies/the-vvaan/\nTime 8:00–
+ 9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Dates and
+  availability can change\; check the platform.
+URL:https://cinebuds.com/movies/the-vvaan/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-f34dbc11da40d5d351fc6cf1@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261106T080000
+DTEND;TZID=America/Phoenix:20261106T090000
+SUMMARY:OTT: Meesaya Murukku 2 — SonyLIV (Tamil)
+DESCRIPTION:India OTT release date: 2026-11-06\nPlatform: SonyLIV\nLanguage
+ s: Tamil\nSource: https://cinebuds.com/movies/meesaya-murukku-2/\nTime 8:0
+ 0–9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Dates
+  and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/meesaya-murukku-2/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-82caf351f06f20d766cabf97@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261106T080000
+DTEND;TZID=America/Phoenix:20261106T090000
+SUMMARY:OTT: T The Grand Master — Sun NXT (Tamil)
+DESCRIPTION:India OTT release date: 2026-11-06\nPlatform: Sun NXT\nLanguage
+ s: Tamil\nSource: https://cinebuds.com/tamil-movies-digital-release-dates/
+ \nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch t
+ ime. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/tamil-movies-digital-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-a4bb45bd65f7c988bbdaafc6@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261106T080000
+DTEND;TZID=America/Phoenix:20261106T090000
+SUMMARY:OTT: Nooru Kodi Vaanavil — ZEE5 (Tamil)
+DESCRIPTION:India OTT release date: 2026-11-06\nPlatform: ZEE5\nLanguages: 
+ Tamil\nSource: https://cinebuds.com/movies/nooru-kodi-vaanavil/\nTime 8:00
+ –9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Dates 
+ and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/nooru-kodi-vaanavil/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-b65ea53d5563bc82a8acb2cc@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261112T080000
+DTEND;TZID=America/Phoenix:20261112T090000
+SUMMARY:OTT: Saayavanam — Aha (Tamil)
+DESCRIPTION:India OTT release date: 2026-11-12\nPlatform: Aha\nLanguages: T
+ amil\nSource: https://cinebuds.com/movies/saayavanam/\nTime 8:00–9:00 AM
+  Phoenix is a display slot\, NOT a streaming launch time. Dates and availa
+ bility can change\; check the platform.
+URL:https://cinebuds.com/movies/saayavanam/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-c3ddd7545022bc32677f89bd@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261112T080000
+DTEND;TZID=America/Phoenix:20261112T090000
+SUMMARY:OTT: Jailer 2 — Prime Video (Tamil)
+DESCRIPTION:India OTT release date: 2026-11-12\nPlatform: Prime Video\nLang
+ uages: Tamil Also in Malayalam\, Telugu\, Kannada\, Hindi\nSource: https:/
+ /cinebuds.com/movies/jailer-2/\nTime 8:00–9:00 AM Phoenix is a display s
+ lot\, NOT a streaming launch time. Dates and availability can change\; che
+ ck the platform.
+URL:https://cinebuds.com/movies/jailer-2/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-a5758ecf27c9177d4db04033@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261113T080000
+DTEND;TZID=America/Phoenix:20261113T090000
+SUMMARY:OTT: The Third Murder — Manorama Max (Malayalam)
+DESCRIPTION:India OTT release date: 2026-11-13\nPlatform: Manorama Max\nLan
+ guages: Malayalam\nSource: https://cinebuds.com/movies/the-third-murder/\n
+ Time 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch tim
+ e. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/the-third-murder/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-6ca44a2c46d97ee87a240c9b@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261113T080000
+DTEND;TZID=America/Phoenix:20261113T090000
+SUMMARY:OTT: Daayra — Netflix (Hindi)
+DESCRIPTION:India OTT release date: 2026-11-13\nPlatform: Netflix\nLanguage
+ s: Hindi Also in Malayalam\nSource: https://cinebuds.com/movies/daayra/\nT
+ ime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch time
+ . Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/daayra/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-4beff5da4c1a4dcccfb6abb3@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261113T080000
+DTEND;TZID=America/Phoenix:20261113T090000
+SUMMARY:OTT: Ranabaali — Netflix (Telugu)
+DESCRIPTION:India OTT release date: 2026-11-13\nPlatform: Netflix\nLanguage
+ s: Telugu Also in Malayalam\, Tamil\, Kannada\, Hindi\nSource: https://cin
+ ebuds.com/movies/ranabaali/\nTime 8:00–9:00 AM Phoenix is a display slot
+ \, NOT a streaming launch time. Dates and availability can change\; check 
+ the platform.
+URL:https://cinebuds.com/movies/ranabaali/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-1b6a3f9451600ddd0f5314b1@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261113T080000
+DTEND;TZID=America/Phoenix:20261113T090000
+SUMMARY:OTT: H Heggana Muddu — Prime Video (Kannada)
+DESCRIPTION:India OTT release date: 2026-11-13\nPlatform: Prime Video\nLang
+ uages: Kannada\nSource: https://cinebuds.com/upcoming-kannada-movies-on-ot
+ t-platforms/\nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a stream
+ ing launch time. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/upcoming-kannada-movies-on-ott-platforms/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-8be8159743017d21181473c5@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261113T080000
+DTEND;TZID=America/Phoenix:20261113T090000
+SUMMARY:OTT: Anbil Avan — SonyLIV (Tamil)
+DESCRIPTION:India OTT release date: 2026-11-13\nPlatform: SonyLIV\nLanguage
+ s: Tamil Also in Malayalam\, Telugu\, Kannada\, Hindi\nSource: https://cin
+ ebuds.com/movies/anbil-avan/\nTime 8:00–9:00 AM Phoenix is a display slo
+ t\, NOT a streaming launch time. Dates and availability can change\; check
+  the platform.
+URL:https://cinebuds.com/movies/anbil-avan/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-3dc34f1b952a68e466492d1d@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261113T080000
+DTEND;TZID=America/Phoenix:20261113T090000
+SUMMARY:OTT: Bandra — ZEE5 (Malayalam)
+DESCRIPTION:India OTT release date: 2026-11-13\nPlatform: ZEE5\nLanguages: 
+ Malayalam\nSource: https://cinebuds.com/malayalam-movies-ott-release-dates
+ /\nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch 
+ time. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/malayalam-movies-ott-release-dates/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-433fa303baef67447cb8f412@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261114T080000
+DTEND;TZID=America/Phoenix:20261114T090000
+SUMMARY:OTT: Crazy Kalyanam — Aha (Telugu)
+DESCRIPTION:India OTT release date: 2026-11-14\nPlatform: Aha\nLanguages: T
+ elugu\nSource: https://cinebuds.com/movies/crazy-kalyanam/\nTime 8:00–9:
+ 00 AM Phoenix is a display slot\, NOT a streaming launch time. Dates and a
+ vailability can change\; check the platform.
+URL:https://cinebuds.com/movies/crazy-kalyanam/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-6922ee6ebf0dc4d9834fddcf@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261120T080000
+DTEND;TZID=America/Phoenix:20261120T090000
+SUMMARY:OTT: Haiku — Netflix (Tamil)
+DESCRIPTION:India OTT release date: 2026-11-20\nPlatform: Netflix\nLanguage
+ s: Tamil Also in Telugu\nSource: https://cinebuds.com/movies/haiku/\nTime 
+ 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Da
+ tes and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/haiku/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-84b29fb6f009577b5a20cc99@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261120T080000
+DTEND;TZID=America/Phoenix:20261120T090000
+SUMMARY:OTT: Nayyi Navelli — Prime Video (Hindi)
+DESCRIPTION:India OTT release date: 2026-11-20\nPlatform: Prime Video\nLang
+ uages: Hindi\nSource: https://cinebuds.com/movies/nayyi-navelli/\nTime 8:0
+ 0–9:00 AM Phoenix is a display slot\, NOT a streaming launch time. Dates
+  and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/nayyi-navelli/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-7036647058e4ab3e89092374@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261127T080000
+DTEND;TZID=America/Phoenix:20261127T090000
+SUMMARY:OTT: Aadarsha Kutumbam House No: 47 – AK47 — Netflix (Telugu)
+DESCRIPTION:India OTT release date: 2026-11-27\nPlatform: Netflix\nLanguage
+ s: Telugu\nSource: https://cinebuds.com/movies/aadarsha-kutumbam-house-no-
+ 47-ak47/\nTime 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming 
+ launch time. Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/aadarsha-kutumbam-house-no-47-ak47/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-7c9c2571e4ab05a4cb27b6a3@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261127T080000
+DTEND;TZID=America/Phoenix:20261127T090000
+SUMMARY:OTT: Drishyam: The Conclusion — Netflix (Hindi)
+DESCRIPTION:India OTT release date: 2026-11-27\nPlatform: Netflix\nLanguage
+ s: Hindi\nSource: https://cinebuds.com/movies/drishyam-the-conclusion/\nTi
+ me 8:00–9:00 AM Phoenix is a display slot\, NOT a streaming launch time.
+  Dates and availability can change\; check the platform.
+URL:https://cinebuds.com/movies/drishyam-the-conclusion/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ott-be01081ac22ef58831290117@vihari23.github.io
+DTSTAMP:20261113T183050Z
+DTSTART;TZID=America/Phoenix:20261127T080000
+DTEND;TZID=America/Phoenix:20261127T090000
+SUMMARY:OTT: Hanuman Ansh — SonyLIV (Hindi)
+DESCRIPTION:India OTT release date: 2026-11-27\nPlatform: SonyLIV\nLanguage
+ s: Hindi\nSource: https://cinebuds.com/movies/hanuman-ansh/\nTime 8:00–9
+ :00 AM Phoenix is a display slot\, NOT a streaming launch time. Dates and 
+ availability can change\; check the platform.
+URL:https://cinebuds.com/movies/hanuman-ansh/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:OTT,ENTERTAINMENT
+END:VEVENT
+END:VCALENDAR
