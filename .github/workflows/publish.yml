@@ -1,0 +1,54 @@
+name: Publish India OTT Calendar
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 15 * * *' # 08:00 Phoenix time, year-round
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: india-ott-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test calendar code
+        run: python -m unittest discover -s tests -p 'test_india_ott.py' -v
+      - name: Generate live ICS
+        run: python scripts/generate_india_ott.py --output site/india-ott.ics
+      - name: Validate ICS publication
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          data = Path('site/india-ott.ics').read_bytes()
+          assert data.startswith(b'BEGIN:VCALENDAR\r\n')
+          assert data.endswith(b'END:VCALENDAR\r\n')
+          assert data.count(b'BEGIN:VEVENT') >= 3
+          assert b'DTSTART;TZID=America/Phoenix:' in data
+          print('Published ICS validation passed')
+          PY
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
