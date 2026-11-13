@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -43,12 +43,37 @@ jobs:
           assert b'DTSTART;TZID=America/Phoenix:' in data
           print('Published ICS validation passed')
           PY
+      - name: Save subscription feed in repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/india-ott.ics
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh India OTT ICS feed [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "ICS unchanged"
+          fi
+      - name: Check optional GitHub Pages configuration
+        id: pages_check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh api "repos/${{ github.repository }}/pages" >/dev/null 2>&1; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "GitHub Pages is not enabled yet. Repository ICS subscription remains available."
+          fi
       - name: Configure GitHub Pages
+        if: steps.pages_check.outputs.enabled == 'true'
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
+        if: steps.pages_check.outputs.enabled == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
       - name: Deploy Pages
+        if: steps.pages_check.outputs.enabled == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
