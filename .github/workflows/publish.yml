@@ -54,6 +54,22 @@ jobs:
           else
             echo "ICS unchanged"
           fi
+      - name: Test public ICS subscription endpoint
+        run: |
+          curl --fail --silent --show-error --location --retry 3 --dump-header /tmp/ott-headers "https://raw.githubusercontent.com/vihari23/Movie-OTT-/main/site/india-ott.ics" --output /tmp/public-ott.ics
+          python - <<'PY'
+          from pathlib import Path
+          data = Path('/tmp/public-ott.ics').read_bytes()
+          hdrs = Path('/tmp/ott-headers').read_text()
+          if not (data.startswith(b'BEGIN:VCALENDAR\r\n') and data.endswith(b'END:VCALENDAR\r\n')):
+              raise ValueError('Public URL does not serve an ICS calendar')
+          count = data.count(b'BEGIN:VEVENT')
+          if count < 3:
+              raise ValueError(f'Public URL has only {count} events')
+          print(f'Public subscription URL: HTTP fetch succeeded, {count} events')
+          print('Response headers:')
+          print('\n'.join(line for line in hdrs.splitlines() if line.lower().startswith(('http/', 'content-type:', 'cache-control:', 'last-modified:'))))
+          PY
       - name: Check optional GitHub Pages configuration
         id: pages_check
         env:
