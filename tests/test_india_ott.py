@@ -37,5 +37,7 @@ class CalendarTests(unittest.TestCase):
         ics=render([a])
         self.assertIn("DTSTART;TZID=America/Phoenix:20261113T080000",ics)
         self.assertIn("DTEND;TZID=America/Phoenix:20261113T090000",ics)
+        self.assertIn("Feed last checked (UTC):",ics)
+        self.assertIn("LAST-MODIFIED:",ics)
         self.assertTrue(all(len(line.encode("utf-8"))<=75 for line in ics.split("\r\n")))
 if __name__=="__main__": unittest.main()

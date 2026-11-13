@@ -147,9 +147,10 @@ def render(items):
         primary = r.language.split(" Also in ",1)[0]
         detail = (f"India OTT release date: {r.day.isoformat()}\nPlatform: {r.platform}\n"
                   f"Languages: {r.language}\nSource: {r.url}\n"
+                  f"Feed last checked (UTC): {stamp[0:4]}-{stamp[4:6]}-{stamp[6:8]} {stamp[9:11]}:{stamp[11:13]} UTC\n"
                   "Time 8:00–9:00 AM Phoenix is a display slot, NOT a streaming launch time. "
                   "Dates and availability can change; check the platform.")
-        lines += ["BEGIN:VEVENT","UID:"+uid(r),"DTSTAMP:"+stamp,
+        lines += ["BEGIN:VEVENT","UID:"+uid(r),"DTSTAMP:"+stamp,"LAST-MODIFIED:"+stamp,
             f"DTSTART;TZID={TZ}:{ymd}T080000",f"DTEND;TZID={TZ}:{ymd}T090000",
             "SUMMARY:"+escape(f"OTT: {r.title} — {r.platform} ({primary})"),
             "DESCRIPTION:"+escape(detail),"URL:"+r.url,
