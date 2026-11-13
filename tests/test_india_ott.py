@@ -3,7 +3,7 @@ import unittest
 from datetime import date
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
-from generate_india_ott import parse, get_day, Release, render, uid
+from generate_india_ott import parse, get_day, Release, render, uid, clean_title
 
 SAMPLE='''<h1>OTT Release Dates</h1><table>
 <tr><th>Release date</th><th>Movie / Web series</th><th>Language</th><th>OTT platform</th><th>Details</th></tr>
@@ -16,6 +16,17 @@ class CalendarTests(unittest.TestCase):
         data=parse(SAMPLE,date(2026,11,13))
         self.assertEqual([x.title for x in data],["Daayra","Crazy Kalyanam"])
         self.assertIn("cinebuds.com/foo/",data[1].url)
+    def test_initial_cleanup_and_duplicates(self):
+        self.assertEqual(clean_title("H Heggana Muddu"), "Heggana Muddu")
+        self.assertEqual(clean_title("It's A Medical Miracle"), "It's A Medical Miracle")
+        html = """<table><tr><td>Thu 15 Oct Confirmed</td><td>I It's A Medical Miracle</td><td>Malayalam</td><td>Manorama Max</td></tr>
+        <tr><td>Thu 15 Oct Confirmed</td><td>I Its A Medical Miracle</td><td>Malayalam</td><td>Manorama Max</td></tr></table>"""
+        found = parse(html, date(2026, 11, 13))
+        self.assertEqual(len(found), 1)
+        self.assertEqual(found[0].title, "It's A Medical Miracle")
+        self.assertEqual(uid(Release("It's A Medical Miracle", date(2026, 11, 13), "Malayalam", "Manorama Max")),
+                         uid(Release("Its A Medical Miracle", date(2026, 11, 20), "Malayalam", "Manorama Max")))
+
     def test_boundary(self):
         self.assertEqual(get_day("Fri 1 Jan Confirmed",date(2026,12,20)),date(2027,1,1))
         self.assertEqual(get_day("Thu 31 Dec Released",date(2027,1,2)),date(2026,12,31))

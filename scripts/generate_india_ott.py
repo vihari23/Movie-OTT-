@@ -84,8 +84,19 @@ def safe_link(value):
     u = urlsplit(value)
     return value if u.scheme in ("http","https") and u.hostname in ("cinebuds.com","www.cinebuds.com") else SOURCE
 
+def clean_title(title):
+    # Cinebuds occasionally repeats a thumbnail's initial, e.g. "H Heggana Muddu".
+    return re.sub(r"^([a-z0-9])\\s+(?=\\1)", "", title.strip(), flags=re.I)
+
+
+def identity(value):
+    # Treat apostrophe variations as the same title, and maintain a stable
+    # event identity when a premiere date is rescheduled.
+    return "".join(c for c in clean_title(value).casefold() if c.isalnum())
+
+
 def uid(r):
-    token = (r.title.casefold().strip()+"|"+r.platform.casefold().strip()).encode("utf-8")
+    token = (identity(r.title)+"|"+r.platform.casefold().strip()).encode("utf-8")
     return "ott-"+hashlib.sha256(token).hexdigest()[:24]+"@vihari23.github.io"
 
 def parse(document, today):
@@ -100,7 +111,7 @@ def parse(document, today):
         if not re.search(r"\b(confirmed|released|out today)\b",label): continue
         when = get_day(d["text"],today,d.get("datetime") or d["attrs"].get("data-date"))
         if not when: continue
-        title, language, service = t["text"].strip(),l["text"].strip(),platform["text"].strip()
+        title, language, service = clean_title(t["text"]),l["text"].strip(),platform["text"].strip()
         if not title or not language or not service or len(title)>160 or len(service)>120: continue
         link = next((safe_link(x) for x in t["links"] if safe_link(x)!=SOURCE),SOURCE)
         r = Release(title,when,language,service,link)
