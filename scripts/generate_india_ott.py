@@ -13,6 +13,7 @@ import sys
 from urllib.parse import urljoin, urlsplit
 from urllib.request import Request, urlopen
 from urllib.robotparser import RobotFileParser
+from zoneinfo import ZoneInfo
 
 SOURCE = "https://cinebuds.com/ott-release-dates/"
 TZ = "America/Phoenix"
@@ -196,7 +197,8 @@ if __name__ == "__main__":
     cli=argparse.ArgumentParser()
     cli.add_argument("--seed",type=Path,default=Path("data/india-ott-seed.json"))
     cli.add_argument("--output",type=Path,default=Path("_site/india-ott.ics"))
-    cli.add_argument("--date",type=date.fromisoformat,default=datetime.now(timezone.utc).date())
+    # Phoenix date, not UTC (the evening backup run crosses UTC midnight).
+    cli.add_argument("--date",type=date.fromisoformat,default=datetime.now(ZoneInfo(TZ)).date())
     args=cli.parse_args()
     try: build(args.date,args.seed,args.output)
     except Exception as exc:

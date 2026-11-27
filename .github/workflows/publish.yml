@@ -4,6 +4,8 @@ on:
     branches: [main]
   schedule:
     - cron: '0 15 * * *' # 08:00 Phoenix time, year-round
+    # Backup run (20:13 Phoenix) in case GitHub delays or skips the morning run.
+    - cron: '13 3 * * *'
   workflow_dispatch:
 
 permissions:
